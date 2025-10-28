@@ -50,7 +50,7 @@ import { useRouter } from 'vue-router'
 import TicketForm from '../components/TicketForm.vue'
 import TicketList from '../components/TicketList.vue'
 import TicketStats from '../components/TicketStats.vue'
-import { ticketStorage, sessionStorage } from '../utils/storage'
+import { ticketStorage, sessionStorage } from '../utils/Storage'
 
 const router = useRouter()
 const tickets = ref([])
