@@ -67,7 +67,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { validateTicketTitle, validateTicketDescription } from '../utils/validation'
+import { validateTicketTitle, validateTicketDescription } from '../utils/Validation'
 
 const emit = defineEmits(['add-ticket'])
 

@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-linear-to-b from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
-    <!-- Animated background -->
+   
     <div class="fixed inset-0 pointer-events-none">
       <svg class="absolute inset-0 w-full h-full" viewBox="0 0 1440 900" preserveAspectRatio="none">
         <defs>
@@ -12,15 +12,13 @@
         <path d="M0,400 Q360,350 720,400 T1440,400 L1440,900 L0,900 Z" fill="rgba(59, 130, 246, 0.05)" filter="url(#blur)" />
       </svg>
       
-      <!-- Decorative circles -->
       <div class="absolute top-20 left-10 w-32 h-32 bg-cyan-500 rounded-full opacity-10 blur-3xl"></div>
       <div class="absolute top-40 right-20 w-40 h-40 bg-blue-500 rounded-full opacity-10 blur-3xl"></div>
       <div class="absolute bottom-20 left-1/3 w-48 h-48 bg-cyan-400 rounded-full opacity-5 blur-3xl"></div>
     </div>
 
-    <!-- Content -->
     <div class="min-h-screen bg-linear-to-b from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
-      <!-- Navigation -->
+ 
       <nav class="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-700">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <div class="text-2xl font-bold text-cyan-400">TicketZen</div>
@@ -31,7 +29,6 @@
         </div>
       </nav>
 
-      <!-- Hero Section -->
       <div class="max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-32">
         
         <div class="text-center">
@@ -56,7 +53,6 @@
           </div>
         </div>
 
-        <!-- Features -->
         <div className="max-w-6xl mx-auto px-6 py-20">
         <h2 className="text-4xl font-bold text-center mb-16">Why Choose TicketFlow?</h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -80,7 +76,6 @@
       </div>
     </div>
 
-    {/* Footer */}
       <footer className="border-t border-slate-700 py-8 px-6 text-center text-slate-400">
         <p>TicketFlow - Hackathon Stage 2 | Built with Vue & Tailwind CSS</p>
       </footer>
