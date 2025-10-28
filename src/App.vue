@@ -1,14 +1,23 @@
-<script setup>
-
-</script>
-
 <template>
-  <div class="text-center p-5">
-    <h2 class="text-3xl text-blue-700 font-bold">HNG frontend ask using VUE</h2>
-    <p class="text-black font-semibold text-xl">Building a ticket management app using three frameworks</p>
+  <div class="min-h-screen bg-slate-950">
+    <router-view />
   </div>
 </template>
 
-<style scoped>
+<script setup>
+import { onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 
-</style>
+const router = useRouter()
+
+onMounted(() => {
+  const user = localStorage.getItem('currentUser')
+  const isAuthPage = router.currentRoute.value.path === '/login' || 
+    router.currentRoute.value.path === '/signup' ||
+    router.currentRoute.value.path === '/'
+  
+  if (!user && !isAuthPage) {
+    router.push('/login')
+  }
+})
+</script>
