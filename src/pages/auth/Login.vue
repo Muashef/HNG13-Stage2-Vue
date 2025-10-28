@@ -43,7 +43,7 @@
         </form>
 
         <p class="text-center text-slate-400 mt-6">
-          Don't have an account?
+            Don't have an account?
           <router-link to="/signup" class="text-cyan-400 hover:text-cyan-300 font-medium">Sign up</router-link>
         </p>
       </div>

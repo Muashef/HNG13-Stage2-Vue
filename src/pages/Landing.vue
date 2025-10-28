@@ -77,7 +77,7 @@
     </div>
 
       <footer className="border-t border-slate-700 py-8 px-6 text-center text-slate-400">
-        <p>TicketFlow - Hackathon Stage 2 | Built with Vue & Tailwind CSS</p>
+        <p>TicketZen - Hackathon Stage 2 | Built with Vue & Tailwind CSS</p>
       </footer>
   </div>
 </template>
